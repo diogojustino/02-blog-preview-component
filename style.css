@@ -61,6 +61,7 @@
 
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 img{
@@ -73,7 +74,7 @@ body{
     min-height: 100vh;
     margin: 0;
     padding: 0 24px;
-    box-sizing: border-box;
+
     display: flex;
     flex-direction: column;
     align-items: center;
