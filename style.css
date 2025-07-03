@@ -1,7 +1,14 @@
 
 @font-face {
-    font-family: "figtree";
-    src: url("./fonts/Figtree-VariableFont_wght.ttf");
+    font-family: "figtree-extra";
+    /* src: url("./fonts/Figtree-VariableFont_wght.ttf"); */
+    src: url("./fonts/static/Figtree-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "figtree-medium";
+    /* src: url("./fonts/Figtree-VariableFont_wght.ttf"); */
+    src: url("./fonts/static/Figtree-Medium.ttf");
 }
 
 :root{
@@ -13,11 +20,20 @@
 }
 
 .text-1, .text-2, .text-3, .text-3-bold {
-    font-family: "figtree";
+    
     line-height: 150%;
     letter-spacing: 0px;
 }
+
+.text-1,  .text-3-bold {
+    font-family: "figtree-extra";
+  
+}
+.text-2, .text-3 {
+    font-family: "figtree-medium";
+}
 .text-1{
+    
     font-size: 24px;
     font-weight: bold;
 }
