@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Link]()
+- Live Site URL: [Link](https://02-blog-preview-component.vercel.app/)
 
 ## My process
 
